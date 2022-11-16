@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+
+:root {
+    /*theme 1 */
+
+    --main-background: hsl(222, 26%, 31%);
+    --toggle-keypad-background: hsl(223, 31%, 20%);
+    --screen-background: hsl(224, 36%, 15%);
+
+    /*theme 1 keys*/
+    --Desaturated-dark-blue-key-background: hsl(225, 21%, 49%);
+    --Desaturated-dark-blue-key-shadow: hsl(224, 28%, 35%);
+
+    --Red-key-background-toggle: hsl(6, 63%, 50%);
+    --Dark-red-key-shadow: hsl(6, 70%, 34%);
+
+    --Light-grayish-orange-key-background: hsl(30, 25%, 89%);
+    --Grayish-orange-key-shadow: hsl(28, 16%, 65%);
+
+    /*theme 1 text*/
+
+    --Very-dark-grayish-blue: hsl(221, 14%, 31%);
+    --White: hsl(0, 0%, 100%);
+
+    /*theme 2*/
+
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-size: 32px;
+    font-family: 'League Spartan', sans-serif;
+    color: var(--White);
+
+
+
+}
+
+.container {
+    background-color: var(--main-background);
+    width: auto;
+    height: 100vh;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    font-size: 25px;
+}
+
+.theme {}
+
+.result-container {
+    background-color: var(--screen-background);
+    width: 400px;
+    padding: 20px;
+    height: 55px;
+    border-radius: 10px;
+}
+
+.result {
+    margin-left: 290px;
+}
+
+.numbers-container {
+    margin: 20px;
+    width: 400px;
+    height: 200px;
+    background-color: var(--toggle-keypad-background);
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+button {
+    width: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
